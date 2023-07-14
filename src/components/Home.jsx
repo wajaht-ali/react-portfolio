@@ -9,7 +9,7 @@ import {
 const Home = () => {
     return (
         <>
-            <div className="home">
+            <div className="home" id='home'>
                 <main>
                     <h1>TechStar</h1>
                     <p>Your problems need a digital Solution.</p>
@@ -26,14 +26,15 @@ const Home = () => {
             </div>
 
 
-            <div className="home3">
+            <div className="home3" id='about'>
                 <div>
                     <h1>Who I am?</h1>
                     <p>As a front-end web developer, I am passionate about creating attractive and visually appealing websites that offer an exceptional user experience. I am skillful in HTML, CSS, and JavaScript, with a good understanding of the principles of responsive web design. I have experience with modern front-facing frameworks like React and Angular. I also know how to work with various design tools like Sketch and Figma to create wireframes and prototypes. With my excellent communication skills and attention to detail, I am committed to high-quality work that exceeds client expectations.</p>
                 </div>
             </div>
 
-            <div className="home4">
+            <div className="home4" id='brands'>
+                <div>
                 <h1>Brands</h1>
                 <article>
                     <div style={{
@@ -61,6 +62,7 @@ const Home = () => {
                         <p>Instagram</p>
                     </div>
                 </article>
+                </div>
             </div>
         </>
     )
